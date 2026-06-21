@@ -1,0 +1,20 @@
+DECLARE
+BEGIN
+    FOR c IN (
+        SELECT l.LOANID
+        FROM LOANS l
+        JOIN CUSTOMERS c
+        ON l.CUSTOMERID = c.CUSTOMERID
+        WHERE c.AGE > 60
+    )
+    LOOP
+        UPDATE LOANS
+        SET INTERESTRATE = INTERESTRATE - 1
+        WHERE LOANID = c.LOANID;
+    END LOOP;
+
+    COMMIT;
+END;
+/
+
+SELECT * FROM LOANS;
