@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.cohort-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 260px;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
