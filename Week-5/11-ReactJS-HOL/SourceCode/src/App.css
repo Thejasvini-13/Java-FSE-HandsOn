@@ -1,0 +1,25 @@
+.container{
+  text-align:center;
+  font-family:Arial;
+  margin-top:30px;
+}
+
+button{
+  margin:8px;
+  padding:10px 18px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.box{
+  width:320px;
+  margin:30px auto;
+  padding:20px;
+  border:1px solid gray;
+  border-radius:10px;
+}
+
+input{
+  padding:8px;
+  width:180px;
+}
