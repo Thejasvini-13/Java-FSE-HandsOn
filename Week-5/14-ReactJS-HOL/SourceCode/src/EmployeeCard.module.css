@@ -1,0 +1,23 @@
+.Card{
+    display:inline-block;
+    width:25%;
+    border:1px solid gray;
+    border-radius:5px;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+}
+
+.light{
+    color:blue;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.dark{
+    color:red;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
