@@ -1,0 +1,18 @@
+.App{
+  text-align:center;
+  margin-top:70px;
+}
+
+.register h2{
+  color:red;
+}
+
+label{
+  display:inline-block;
+  width:90px;
+  text-align:left;
+}
+
+input{
+  width:180px;
+}
