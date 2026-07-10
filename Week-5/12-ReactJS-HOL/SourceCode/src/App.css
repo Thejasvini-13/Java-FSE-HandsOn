@@ -1,0 +1,11 @@
+.container{
+  text-align:center;
+  margin-top:150px;
+  font-family:Arial;
+}
+
+button{
+  margin-top:15px;
+  padding:4px 10px;
+  font-size:12px;
+}
